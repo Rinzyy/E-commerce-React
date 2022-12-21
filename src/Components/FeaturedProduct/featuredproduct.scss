@@ -1,0 +1,23 @@
+.featureP{
+    margin: 100px 200px;
+    .top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 200px;
+        h3{
+            white-space: nowrap;
+        }
+
+        p{
+            text-align: justify;
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 50px;
+        margin: 100px;
+    }
+}

@@ -1,0 +1,42 @@
+.footer{
+
+    .top{
+        display: flex;
+        justify-content: space-between;
+        gap: 3rem;
+        padding: 2rem 4rem;
+
+        .item{
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+
+            span{
+                text-align: justify;
+            }
+        }
+    }
+
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem 2rem;
+
+        .left{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            .logo{
+                color: #2879fe;
+                font-weight: bold;
+            }
+
+            .copyright{
+                color: #777;
+                font-size: 0.6rem;
+            }
+        }
+
+    }
+}
